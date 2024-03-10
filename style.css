@@ -1,0 +1,142 @@
+body {
+	font-family: 'Arial', sans-serif;
+	color: #333;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav {
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+  }
+  
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .logo a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+  }
+  
+  .search input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+	color: #333;
+  }
+  
+  .links a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 18px;
+  }
+  
+  .links a:hover {
+	color: #ddd;
+  }
+  
+  .main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	/* border: 2px solid black; */
+  }
+  
+  .box {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+  }
+
+  /* #boxes{
+	text-align: center;
+  } */
+  
+  /* #box {
+	width: 100%;
+	margin-top: 20px;
+  } */
+  
+  h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #333;
+  }
+  
+  table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+  
+  th,
+  td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+	background-color: #223a5e;
+	color: #fff;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+	background-color: #ddd;
+  }
+  
+  .house-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 45%;
+	margin-top: 30px;
+	margin-right: 20px;
+	/* border: 2px solid black; */
+  }
+  
+  .service-item {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	width: 50%;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+	margin-bottom: 20px;
+  }
+  
+  .service-item:hover {
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+	transform: translateY(-5px);
+  }
+  
+  .service-item img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  }
+  
+  .service-item h6 {
+	margin: 0;
+	font-size: 1rem;
+	color: #333;
+	text-align: center;
+  }
+  
